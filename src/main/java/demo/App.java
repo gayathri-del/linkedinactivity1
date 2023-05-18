@@ -12,23 +12,13 @@ public class App {
 
         // TODO: call your test case functions one after other here
 
-        // tests.testCase01();
-        // tests.testCase02();
-        // tests.testCase03();
-        // tests.testCase04();
-        // tests.TestCases05();
-        tests.TestCases06();
-        // tests.TestCases07();
-        // tests.TestCases08();
-        // tests.TestCases09();
-        // tests.TestCases10();
-
-        // END Tests
+        tests.TestCases07();
 
         tests.endTest(); // End your test by clearning connections and closing browser
     }
 
     public static void main(String[] args) throws InterruptedException, IOException {
         new App().getGreeting();
+
     }
 }
